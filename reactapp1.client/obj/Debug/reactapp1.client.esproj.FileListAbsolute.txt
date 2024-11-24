@@ -1,6 +1,0 @@
-C:\Users\faris\source\repos\Memz-Dev\Operatie-Braunschweig\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
-<<<<<<< HEAD
-D:\Dev\Operatie-Braunschweig\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
-=======
-C:\Users\faris\Documents\GitHub\Operatie-Braunschweig\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
->>>>>>> bdf5254ceec8b8be62a05793f1ac7ca536d2bb8d
