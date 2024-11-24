@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "3B2gQLiAvT/horUQLek2vLVW3+87eCmZjmGr/awZyvw=",
+  "Hash": "A4hAaUMQyyP+LwUkdVj7N/TqPn6Vqs2QtUT0COG6r5Q=",
   "Source": "ReactApp1.Server",
   "BasePath": "_content/ReactApp1.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\faris\\source\\repos\\Memz-Dev\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
+      "Identity": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
       "Version": 2,
       "Source": "reactapp1.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
