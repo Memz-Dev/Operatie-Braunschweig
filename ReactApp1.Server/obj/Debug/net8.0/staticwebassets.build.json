@@ -1,13 +1,21 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "6IbGF0Pxd+BT9lTjKCAfTEd0rYkcLnTOdMK36/IdIKU=",
+=======
+  "Hash": "A4hAaUMQyyP+LwUkdVj7N/TqPn6Vqs2QtUT0COG6r5Q=",
+>>>>>>> bdf5254ceec8b8be62a05793f1ac7ca536d2bb8d
   "Source": "ReactApp1.Server",
   "BasePath": "_content/ReactApp1.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
+<<<<<<< HEAD
       "Identity": "D:\\Dev\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
+=======
+      "Identity": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
+>>>>>>> bdf5254ceec8b8be62a05793f1ac7ca536d2bb8d
       "Version": 2,
       "Source": "reactapp1.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
