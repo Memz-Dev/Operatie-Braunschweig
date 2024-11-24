@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-D:\Dev\Operatie-Braunschweig\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
-=======
-C:\Users\faris\Documents\GitHub\Operatie-Braunschweig\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
->>>>>>> d2cacca97c1fee6adfcdfa5dc540033806491574
