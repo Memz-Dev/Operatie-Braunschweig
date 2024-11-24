@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Faris\\source\\repos\\OperatieBraunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj",
+      "projectUniqueName": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj",
       "projectName": "OperatieBraunschweig",
-      "projectPath": "C:\\Users\\Faris\\source\\repos\\OperatieBraunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj",
+      "projectPath": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj",
       "packagesPath": "C:\\Users\\Faris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Faris\\source\\repos\\OperatieBraunschweig\\OperatieBraunschweig\\obj\\",
+      "outputPath": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\OperatieBraunschweig\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
