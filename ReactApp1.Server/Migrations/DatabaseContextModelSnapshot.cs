@@ -33,6 +33,36 @@ namespace ReactApp1.Server.Migrations
 
                     b.ToTable("Accounts");
                 });
+
+            modelBuilder.Entity("ReactApp1.Server.Classes.Voertuig", b =>
+                {
+                    b.Property<int>("VoertuigId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("AanschafJaar")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Kleur")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Merk")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("VoertuigId");
+
+                    b.ToTable("Voertuigen");
+                });
 #pragma warning restore 612, 618
         }
     }
