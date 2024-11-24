@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0b6Y+6jx1I8=",
+  "dgSpecHash": "OZwF1vLUKmI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\faris\\source\\repos\\Memz-Dev\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+  "projectFilePath": "C:\\Users\\faris\\source\\repos\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\faris\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.11\\microsoft.aspnetcore.spaproxy.8.0.11.nupkg.sha512",
     "C:\\Users\\faris\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
