@@ -1,6 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using ReactApp1.Server.Classes;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Configure the DatabaseContext
+builder.Services.AddDbContext<DatabaseContext>(options =>
+    options.UseSqlite("Data Source=database.db")); // Replace with your connection string if needed
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

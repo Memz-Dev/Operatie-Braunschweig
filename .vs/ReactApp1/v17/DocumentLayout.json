@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "D:\\Dev\\Operatie-Braunschweig\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\dev\\operatie-braunschweig\\reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,6 +18,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\dev\\operatie-braunschweig\\reactapp1.server\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\faris\\documents\\github\\operatie-braunschweig\\reactapp1.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\faris\\documents\\github\\operatie-braunschweig\\reactapp1.server\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\faris\\documents\\github\\operatie-braunschweig\\reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> d2cacca97c1fee6adfcdfa5dc540033806491574
     }
   ],
   "DocumentGroupContainers": [
@@ -26,6 +39,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -69,11 +83,40 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T22:15:00.962Z",
+=======
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\Program.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T22:50:51.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\Controllers\\WeatherForecastController.cs*",
+              "RelativeToolTip": "ReactApp1.Server\\Controllers\\WeatherForecastController.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T22:42:31.765Z",
+>>>>>>> d2cacca97c1fee6adfcdfa5dc540033806491574
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "Voertuig.cs",
               "DocumentMoniker": "D:\\Dev\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Voertuig.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\Voertuig.cs",
@@ -82,6 +125,16 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T21:33:35.068Z",
+=======
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\Models\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Models\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\Models\\DatabaseContext.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Models\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T22:31:13.388Z",
+>>>>>>> d2cacca97c1fee6adfcdfa5dc540033806491574
               "EditorCaption": ""
             }
           ]

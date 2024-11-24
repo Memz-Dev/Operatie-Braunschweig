@@ -1,31 +1,17 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ReactApp1.Server.Classes;
-using System.Diagnostics;
 
-public sealed class DatabaseContext : DbContext
+public class DatabaseContext : DbContext
 {
-    
-
     public DbSet<Account> Accounts { get; set; }
     public DbSet<Voertuig> Voertuigen { get; set; }
 
-    private DatabaseContext() { }
-    private static DatabaseContext instance;
-
-
+    // Constructor for DI (Dependency Injection)
     public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
     {
     }
 
-    public static DatabaseContext GetInstance()
-    {
-        if (instance == null)
-        {
-            instance = new DatabaseContext();
-        }
-        return instance;
-    }
-
+    // Configure the database options here only if not using DI
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (!optionsBuilder.IsConfigured)

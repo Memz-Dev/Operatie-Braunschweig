@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using ReactApp1.Server.Classes;
 
 namespace ReactApp1.Server.Controllers
 {
@@ -6,18 +7,18 @@ namespace ReactApp1.Server.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        DatabaseContext _context = DatabaseContext.GetInstance();
-
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        private readonly DatabaseContext _context; // Injected DbContext
+     
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, DatabaseContext context)
         {
             _logger = logger;
+            _context = context; // Store the injected DbContext
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
