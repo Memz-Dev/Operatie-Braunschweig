@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I/efiagx0sU=",
+  "dgSpecHash": "U68UA4KYuug=",
   "success": true,
   "projectFilePath": "D:\\Dev\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
   "expectedPackageFiles": [
@@ -62,12 +62,5 @@
     "C:\\Users\\sjoer\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512",
     "C:\\Users\\sjoer\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Dev\\Operatie-Braunschweig\\ReactApp1.Server\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
