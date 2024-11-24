@@ -2,12 +2,16 @@
 {
     public class Voertuig
     {
-        int VoertuigId { get; set; }
-        string Merk { get; set; }
-        string Type { get; set; }
-        string Status { get; set; }
-        int AanschafJaar {  get; set; }
-        string Kleur {  get; set; }
+        public int VoertuigId { get; set; }
+        public string Merk { get; set; }
+        public string Type { get; set; }
+        public string Status { get; set; }
+        public int AanschafJaar {  get; set; }
+        public string Kleur {  get; set; }
 
+        public Voertuig()
+        {
+
+        }
     }
 }
