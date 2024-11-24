@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Dev\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\Dev\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
         "packagesPath": "C:\\Users\\sjoer\\.nuget\\packages\\",
         "outputPath": "D:\\Dev\\Operatie-Braunschweig\\ReactApp1.Server\\obj\\",
+=======
+    "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+        "projectName": "ReactApp1.Server",
+        "projectPath": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+        "packagesPath": "C:\\Users\\faris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\ReactApp1.Server\\obj\\",
+>>>>>>> 410e1368b4b0640c5b677500e14c8b81a8c94f79
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sjoer\\AppData\\Roaming\\NuGet\\NuGet.Config",
