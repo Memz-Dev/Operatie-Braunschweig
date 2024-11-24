@@ -7,6 +7,7 @@ public sealed class DatabaseContext : DbContext
     
 
     public DbSet<Account> Accounts { get; set; }
+    public DbSet<Voertuig> Voertuigen { get; set; }
 
     private DatabaseContext() { }
     private static DatabaseContext instance;
