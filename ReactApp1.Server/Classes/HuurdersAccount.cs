@@ -1,15 +1,21 @@
-﻿namespace ReactApp1.Server.Classes
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ReactApp1.Server.Classes
 {
     public class HuurdersAccount : Account
     {
-        public string naam { get; set; }
-        public string emailAdres { get; set; }
-        public string adres { get; set; }
-        public string telefoonnummer { get; set; }
+        [Required(ErrorMessage = "Naam is verplicht")]
+        public string Naam { get; set; }
 
-        public ICollection<HuurAanvraag> aanvragen { get; set; }
+        [Required(ErrorMessage = "Emailadres is verplicht")]
+        [EmailAddress(ErrorMessage = "Ongeldig e-mailadres")]
+        public string EmailAdres { get; set; }
 
-        //public HuurdersAccount() { }
+        [Required(ErrorMessage = "Adres is verplicht")]
+        public string Adres { get; set; }
 
+        [Required(ErrorMessage = "Telefoonnummer is verplicht")]
+        [Phone(ErrorMessage = "Ongeldig telefoonnummer")]
+        public string Telefoonnummer { get; set; }
     }
 }
