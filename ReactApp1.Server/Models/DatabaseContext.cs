@@ -12,7 +12,7 @@ public class DatabaseContext : DbContext
     public DbSet<Caravan> Caravans { get; set; }
     public DbSet<Camper> Campers { get; set; }
 
-    public DbSet<HuurAanvraag> HuurAanvraags { get; set; }
+    public DbSet<HuurAanvraag> HuurAanvragen { get; set; }
 
     // Constructor for DI (Dependency Injection)
     public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
