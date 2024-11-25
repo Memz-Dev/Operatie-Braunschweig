@@ -1,14 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\",
+  "WorkspaceRootPath": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.server\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\lapto\\source\\repos\\operatie-braunschweig\\reactapp1.server\\classes\\huurdersaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\huurdersaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\lapto\\source\\repos\\operatie-braunschweig\\reactapp1.server\\classes\\beheerdersaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\beheerdersaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\lapto\\source\\repos\\operatie-braunschweig\\reactapp1.server\\classes\\medewerkersaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\medewerkersaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\lapto\\source\\repos\\operatie-braunschweig\\reactapp1.server\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.server\\classes\\voertuig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\voertuig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\lapto\\source\\repos\\operatie-braunschweig\\reactapp1.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\lapto\\source\\repos\\operatie-braunschweig\\reactapp1.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\lapto\\source\\repos\\operatie-braunschweig\\reactapp1.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\lapto\\source\\repos\\operatie-braunschweig\\reactapp1.server\\reactapp1.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\reactapp1.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\lapto\\source\\repos\\operatie-braunschweig\\reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\lapto\\source\\repos\\operatie-braunschweig\\reactapp1.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,33 +53,133 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BeheerdersAccount.cs",
+              "DocumentMoniker": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\BeheerdersAccount.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\BeheerdersAccount.cs",
+              "ToolTip": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\BeheerdersAccount.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Classes\\BeheerdersAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:13:16.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Voertuig.cs",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Voertuig.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\Voertuig.cs",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Voertuig.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Classes\\Voertuig.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIA1wBEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MedewerkersAccount.cs",
+              "DocumentMoniker": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\MedewerkersAccount.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\MedewerkersAccount.cs",
+              "ToolTip": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\MedewerkersAccount.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Classes\\MedewerkersAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T10:48:07.37Z",
+              "WhenOpened": "2024-11-25T13:13:10.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Account.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\Account.cs",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Account.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Classes\\Account.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIA2wAwAAAAJAAAAAAAAAA==",
+              "Title": "HuurdersAccount.cs",
+              "DocumentMoniker": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\HuurdersAccount.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\HuurdersAccount.cs",
+              "ToolTip": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\HuurdersAccount.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Classes\\HuurdersAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T10:47:13.76Z",
+              "WhenOpened": "2024-11-25T13:09:53.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Account.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\Account.cs",
+              "ToolTip": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Account.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Classes\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:08:10.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\reactapp1.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\reactapp1.client\\src\\App.jsx",
+              "RelativeToolTip": "reactapp1.client\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-25T13:01:44.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\reactapp1.client\\src\\App.css",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\App.css",
+              "ToolTip": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\reactapp1.client\\src\\App.css",
+              "RelativeToolTip": "reactapp1.client\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-25T13:01:28.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:54:48.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReactApp1.Server",
+              "DocumentMoniker": "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\ReactApp1.Server.csproj",
+              "ToolTip": "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+              "RelativeToolTip": "ReactApp1.Server\\ReactApp1.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-25T12:52:09.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Program.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAwAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:47:58.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\appsettings.json",
+              "RelativeToolTip": "ReactApp1.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-25T12:50:45.484Z",
               "EditorCaption": ""
             }
           ]
