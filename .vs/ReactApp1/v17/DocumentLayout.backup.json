@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\samue\\source\\repos\\Operatie-Braunschweig\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\samue\\source\\repos\\operatie-braunschweig\\reactapp1.server\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,6 +18,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\samue\\source\\repos\\operatie-braunschweig\\reactapp1.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.server\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> eaea136742fe919a6ff3357821bb79972f6a67fb
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +35,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 6,
+=======
+          "SelectedChildIndex": 2,
+>>>>>>> eaea136742fe919a6ff3357821bb79972f6a67fb
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,6 +63,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "Voertuig.cs",
               "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Voertuig.cs",
@@ -57,12 +71,22 @@
               "ToolTip": "C:\\Users\\samue\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Voertuig.cs",
               "RelativeToolTip": "ReactApp1.Server\\Classes\\Voertuig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+=======
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Program.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+>>>>>>> eaea136742fe919a6ff3357821bb79972f6a67fb
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T08:52:20.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Account.cs",
@@ -70,6 +94,15 @@
               "ToolTip": "C:\\Users\\samue\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Account.cs",
               "RelativeToolTip": "ReactApp1.Server\\Classes\\Account.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+=======
+              "DocumentIndex": 1,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Models\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Models\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Models\\DatabaseContext.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Models\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+>>>>>>> eaea136742fe919a6ff3357821bb79972f6a67fb
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T08:52:08.22Z",
               "EditorCaption": ""

@@ -10,6 +10,7 @@
         {
             
         }
+<<<<<<< HEAD
     }    
     public class HuurdersAccount : Account
     {
@@ -39,5 +40,7 @@
     {
         public string rol {  get; set; }
         public MedewerkersAccount() { }
+=======
+>>>>>>> eaea136742fe919a6ff3357821bb79972f6a67fb
     }
 }
