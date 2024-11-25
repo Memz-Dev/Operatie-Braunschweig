@@ -4,17 +4,17 @@ namespace ReactApp1.Server.Classes
 {
     public abstract class Account
     {
-
         [Key]
-        public int accountId { get; set; }
+        public int AccountId { get; set; }
 
-        [Required(ErrorMessage = "Gebruikersnaam is verplicht")]
-        [StringLength(50, ErrorMessage = "Gebruikersnaam mag niet langer zijn dan 50 tekens")]
-        public string gebruikersNaam { get; set; }
+        [Required(ErrorMessage = "Wachtwoord is verplicht.")]
+        [StringLength(100, MinimumLength = 8, ErrorMessage = "Het wachtwoord moet minimaal 8 tekens lang zijn.")]
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$",
+         ErrorMessage = "Het wachtwoord moet minimaal één hoofdletter, één kleine letter, één cijfer en één speciaal teken bevatten.")]
+        public string Wachtwoord { get; set; }
 
-        [Required(ErrorMessage = "Wachtwoord is verplicht")]
-        [MinLength(8, ErrorMessage = "Wachtwoord moet minstens 8 tekens bevatten")]
-        public string wachtwoord { get; set; }
+        public Account()
+        {
+        }
     }
-
 }
