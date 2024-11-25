@@ -6,6 +6,9 @@
         public string EmailAdres { get; set; }
         public string Adres { get; set; }
         public string Telefoonnummer { get; set; }
+
+        public ICollection<HuurAanvraag> aanvragen { get; set; }
+
         public HuurdersAccount() { }
 
     }
