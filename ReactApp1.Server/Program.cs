@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using ReactApp1.Server;
 using ReactApp1.Server.Classes;
 using System;
 var builder = WebApplication.CreateBuilder(args);

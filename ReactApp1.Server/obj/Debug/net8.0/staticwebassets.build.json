@@ -1,31 +1,24 @@
 {
   "Version": 1,
-  "Hash": "zGh/IlyQ/fsHOwmQRFug+cPPMwXzIEEduIjFf0i+WuY=",
+  "Hash": "2dusACjRs7pKzZPoKLjEt2aymbIjEJy3gFeWryijMm8=",
   "Source": "ReactApp1.Server",
   "BasePath": "_content/ReactApp1.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
+      "Identity": "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
       "Version": 2,
       "Source": "reactapp1.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
-  "DiscoveryPatterns": [
-    {
-      "Name": "ReactApp1.Server\\wwwroot",
-      "Source": "ReactApp1.Server",
-      "ContentRoot": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\wwwroot\\",
-      "BasePath": "_content/ReactApp1.Server",
-      "Pattern": "**"
-    }
-  ],
-  "Assets": []
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
 }
