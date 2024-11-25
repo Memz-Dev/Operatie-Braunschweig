@@ -9,6 +9,7 @@ public class DatabaseContext : DbContext
     // Constructor for DI (Dependency Injection)
     public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
     {
+
     }
 
     // Configure the database options here only if not using DI

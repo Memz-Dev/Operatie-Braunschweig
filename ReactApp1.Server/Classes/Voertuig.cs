@@ -1,6 +1,6 @@
-﻿namespace ReactApp1.Server.Classes
+﻿    namespace ReactApp1.Server.Classes
 {
-    public class Voertuig
+    public abstract class Voertuig
     {
         public int VoertuigId { get; set; }
         public string Merk { get; set; }
