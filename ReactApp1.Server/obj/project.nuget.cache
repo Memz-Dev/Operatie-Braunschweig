@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ACNkjkVdC+4=",
+  "dgSpecHash": "dMNLDWKmVp8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+  "projectFilePath": "C:\\Users\\lapto\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lapto\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\lapto\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.8\\microsoft.aspnetcore.spaproxy.8.0.8.nupkg.sha512",

@@ -17,7 +17,7 @@ namespace ReactApp1.Server.Migrations
 
             modelBuilder.Entity("ReactApp1.Server.Classes.Account", b =>
                 {
-                    b.Property<int>("accountId")
+                    b.Property<int>("AccountId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -26,17 +26,14 @@ namespace ReactApp1.Server.Migrations
                         .HasMaxLength(21)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("gebruikersNaam")
+                    b.Property<string>("Wachtwoord")
                         .IsRequired()
+                        .HasMaxLength(100)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("wachtwoord")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.HasKey("AccountId");
 
-                    b.HasKey("accountId");
-
-                    b.ToTable("Account");
+                    b.ToTable("Account", (string)null);
 
                     b.HasDiscriminator().HasValue("Account");
 
@@ -52,7 +49,7 @@ namespace ReactApp1.Server.Migrations
                     b.Property<int>("aanschafJaar")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("dueren")
+                    b.Property<int>("aantalDeuren")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("kleur")
@@ -73,7 +70,7 @@ namespace ReactApp1.Server.Migrations
 
                     b.HasKey("voertuigId");
 
-                    b.ToTable("Autos");
+                    b.ToTable("Autos", (string)null);
                 });
 
             modelBuilder.Entity("ReactApp1.Server.Classes.Camper", b =>
@@ -106,7 +103,7 @@ namespace ReactApp1.Server.Migrations
 
                     b.HasKey("voertuigId");
 
-                    b.ToTable("Campers");
+                    b.ToTable("Campers", (string)null);
                 });
 
             modelBuilder.Entity("ReactApp1.Server.Classes.Caravan", b =>
@@ -115,10 +112,10 @@ namespace ReactApp1.Server.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("aanschafJaar")
+                    b.Property<int>("Bedden")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("gewicht")
+                    b.Property<int>("aanschafJaar")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("kleur")
@@ -139,7 +136,7 @@ namespace ReactApp1.Server.Migrations
 
                     b.HasKey("voertuigId");
 
-                    b.ToTable("Caravans");
+                    b.ToTable("Caravans", (string)null);
                 });
 
             modelBuilder.Entity("ReactApp1.Server.Classes.HuurAanvraag", b =>
@@ -148,10 +145,10 @@ namespace ReactApp1.Server.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("BedrijfsAccountaccountId")
+                    b.Property<int?>("BedrijfsAccountAccountId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("HuurdersAccountaccountId")
+                    b.Property<int?>("HuurdersAccountAccountId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("accountid")
@@ -184,13 +181,13 @@ namespace ReactApp1.Server.Migrations
 
                     b.HasKey("huurAanvraagId");
 
-                    b.HasIndex("BedrijfsAccountaccountId");
+                    b.HasIndex("BedrijfsAccountAccountId");
 
-                    b.HasIndex("HuurdersAccountaccountId");
+                    b.HasIndex("HuurdersAccountAccountId");
 
                     b.HasIndex("accountid");
 
-                    b.ToTable("HuurAanvraags");
+                    b.ToTable("HuurAanvragen", (string)null);
                 });
 
             modelBuilder.Entity("ReactApp1.Server.Classes.BedrijfsAccount", b =>
@@ -226,27 +223,21 @@ namespace ReactApp1.Server.Migrations
                 {
                     b.HasBaseType("ReactApp1.Server.Classes.Account");
 
-                    b.Property<string>("adres")
+                    b.Property<string>("Adres")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("emailAdres")
+                    b.Property<string>("EmailAdres")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("naam")
+                    b.Property<string>("Naam")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("telefoonnummer")
+                    b.Property<string>("Telefoonnummer")
                         .IsRequired()
                         .HasColumnType("TEXT");
-
-                    b.ToTable("Account", t =>
-                        {
-                            t.Property("adres")
-                                .HasColumnName("HuurdersAccount_adres");
-                        });
 
                     b.HasDiscriminator().HasValue("HuurdersAccount");
                 });
@@ -266,11 +257,11 @@ namespace ReactApp1.Server.Migrations
                 {
                     b.HasOne("ReactApp1.Server.Classes.BedrijfsAccount", null)
                         .WithMany("aanvragen")
-                        .HasForeignKey("BedrijfsAccountaccountId");
+                        .HasForeignKey("BedrijfsAccountAccountId");
 
                     b.HasOne("ReactApp1.Server.Classes.HuurdersAccount", null)
-                        .WithMany("aanvragen")
-                        .HasForeignKey("HuurdersAccountaccountId");
+                        .WithMany("Aanvragen")
+                        .HasForeignKey("HuurdersAccountAccountId");
 
                     b.HasOne("ReactApp1.Server.Classes.Account", "account")
                         .WithMany()
@@ -288,7 +279,7 @@ namespace ReactApp1.Server.Migrations
 
             modelBuilder.Entity("ReactApp1.Server.Classes.HuurdersAccount", b =>
                 {
-                    b.Navigation("aanvragen");
+                    b.Navigation("Aanvragen");
                 });
 #pragma warning restore 612, 618
         }

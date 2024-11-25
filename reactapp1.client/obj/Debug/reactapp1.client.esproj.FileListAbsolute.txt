@@ -1,2 +1,3 @@
 C:\Users\Faris\Desktop\Operatie-Braunschweig\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
 C:\Users\samue\Source\Repos\Operatie-Braunschweig\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
+C:\Users\lapto\Source\Repos\Operatie-Braunschweig\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
