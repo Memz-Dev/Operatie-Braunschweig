@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Faris\\source\\repos\\OperatieBraunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj": {}
+    "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Faris\\source\\repos\\OperatieBraunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj": {
+    "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Faris\\source\\repos\\OperatieBraunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj",
+        "projectUniqueName": "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj",
         "projectName": "OperatieBraunschweig",
-        "projectPath": "C:\\Users\\Faris\\source\\repos\\OperatieBraunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj",
-        "packagesPath": "C:\\Users\\Faris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Faris\\source\\repos\\OperatieBraunschweig\\OperatieBraunschweig\\obj\\",
+        "projectPath": "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj",
+        "packagesPath": "C:\\Users\\lapto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\OperatieBraunschweig\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Faris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lapto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
