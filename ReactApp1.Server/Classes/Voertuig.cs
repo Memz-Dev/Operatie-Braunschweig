@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+﻿ namespace ReactApp1.Server.Classes
+=======
 ﻿    namespace ReactApp1.Server.Classes
+>>>>>>> eaea136742fe919a6ff3357821bb79972f6a67fb
 {
     public abstract class Voertuig
     {

@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samue\\source\\repos\\Operatie-Braunschweig\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E5F496-5F62-4DDB-AB91-CA126D6C5EB4}|OperatieBraunschweig\\OperatieBraunschweig.csproj|c:\\users\\samue\\source\\repos\\operatie-braunschweig\\operatiebraunschweig\\operatiebraunschweig.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5E5F496-5F62-4DDB-AB91-CA126D6C5EB4}|OperatieBraunschweig\\OperatieBraunschweig.csproj|solutionrelative:operatiebraunschweig\\operatiebraunschweig.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:127403206:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OperatieBraunschweig.csproj",
+              "DocumentMoniker": "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj",
+              "RelativeDocumentMoniker": "OperatieBraunschweig\\OperatieBraunschweig.csproj",
+              "ToolTip": "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\OperatieBraunschweig\\OperatieBraunschweig.csproj",
+              "RelativeToolTip": "OperatieBraunschweig\\OperatieBraunschweig.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-04T10:50:01.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
