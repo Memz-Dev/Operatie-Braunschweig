@@ -1,22 +1,25 @@
-﻿namespace ReactApp1.Server.Classes
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ReactApp1.Server.Classes
 {
     public class HuurAanvraag
     {
-        public int verzoekId { get; set; }
+        [Key]
+        public int huurAanvraagId { get; set; }
 
-
+        public HuurAanvraag() { }
 
         public string postcode { get; set; }
-        public int huisNummer { get; set; }
-        public string straatNaam { get; set; }
-        public int rijbewijsNummer  { get; set; }
-        public string huurReden { get; set; }
-        public string eindBestemming { get; set; }
-        public int verwachtingReisAfstand { get; set; }
+        public int huisnummer { get; set; }
+        public string straatnaam { get; set; }
+        public int rijbewijsnummer { get; set; }
+        public string huurreden { get; set; }
+        public string eindbestemming { get; set; }
+        public int verwachtingreisafstand { get; set; }
 
 
-        public int accountId { get; set; }  // FK
-        public Account account { get; set; }  // Nav
+        public int accountid { get; set; }  // fk
+        public Account account { get; set; }  // nav
 
     }
 }
