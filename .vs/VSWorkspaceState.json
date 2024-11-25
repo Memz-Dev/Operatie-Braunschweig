@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\reactapp1.client",
+    "\\reactapp1.client\\src",
+    "\\ReactApp1.Server",
+    "\\ReactApp1.Server\\Classes",
+    "\\ReactApp1.Server\\Controllers",
+    "\\ReactApp1.Server\\Migrations"
   ],
-  "SelectedNode": "\\ReactApp1.sln",
+  "SelectedNode": "\\ReactApp1.Server\\Classes\\MedewerkersAccount.cs",
   "PreviewInSolutionExplorer": false
 }

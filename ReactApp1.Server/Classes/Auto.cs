@@ -2,7 +2,7 @@
 {
     public class Auto : Voertuig
     {
-        public int dueren { get; set; }
+        public int aantalDeuren { get; set; }
 
     }
 }

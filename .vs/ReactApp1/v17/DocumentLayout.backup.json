@@ -1,58 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\",
+  "WorkspaceRootPath": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.client\\src\\components\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\components\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjoer\\source\\repos\\operatie-braunschweig\\reactapp1.server\\classes\\bedrijfsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\bedrijfsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.client\\src\\pages\\page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\pages\\page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.client\\src\\pages\\signup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\pages\\signup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.server\\classes\\huurdersaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\huurdersaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.client\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.server\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjoer\\source\\repos\\operatie-braunschweig\\reactapp1.server\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.client\\src\\huurdersaccountform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{22C5A345-0A86-4FF6-888A-E3F204F7AEA1}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\huurdersaccountform.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjoer\\source\\repos\\operatie-braunschweig\\reactapp1.server\\hashfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\hashfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\faris\\desktop\\operatie-braunschweig\\reactapp1.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjoer\\source\\repos\\operatie-braunschweig\\reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjoer\\source\\repos\\operatie-braunschweig\\reactapp1.server\\classes\\huurdersaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\huurdersaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjoer\\source\\repos\\operatie-braunschweig\\reactapp1.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\sjoer\\source\\repos\\operatie-braunschweig\\reactapp1.server\\reactapp1.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FD0126E5-995D-446F-AD52-ED5F0BD11A60}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\reactapp1.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,179 +41,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\App.css",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\App.css",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\App.css",
-              "RelativeToolTip": "reactapp1.client\\src\\App.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-25T13:49:52.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\index.css",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\index.css",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\index.css",
-              "RelativeToolTip": "reactapp1.client\\src\\index.css",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-25T13:15:56.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\index.html",
-              "RelativeDocumentMoniker": "reactapp1.client\\index.html",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\index.html",
-              "RelativeToolTip": "reactapp1.client\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-25T13:11:06.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Page.css",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\Pages\\Page.css",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\Pages\\Page.css",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\Pages\\Page.css*",
-              "RelativeToolTip": "reactapp1.client\\src\\Pages\\Page.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-25T12:55:43.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HuurdersAccount.cs",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\HuurdersAccount.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\HuurdersAccount.cs",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\HuurdersAccount.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Classes\\HuurdersAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T12:13:09.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Account.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\Account.cs",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Account.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Classes\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T12:11:39.978Z",
-              "EditorCaption": ""
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Navbar.css",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\Components\\Navbar.css",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\Components\\Navbar.css",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\Components\\Navbar.css*",
-              "RelativeToolTip": "reactapp1.client\\src\\Components\\Navbar.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-25T11:17:50.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Navbar.jsx",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\Components\\Navbar.jsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\Components\\Navbar.jsx",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\Components\\Navbar.jsx",
-              "RelativeToolTip": "reactapp1.client\\src\\Components\\Navbar.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-11-25T11:06:43.549Z",
+              "Title": "BedrijfsAccount.cs",
+              "DocumentMoniker": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\BedrijfsAccount.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\BedrijfsAccount.cs",
+              "ToolTip": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\BedrijfsAccount.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Classes\\BedrijfsAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:50:07.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SignUp.jsx",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\Pages\\SignUp.jsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\Pages\\SignUp.jsx",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\Pages\\SignUp.jsx",
-              "RelativeToolTip": "reactapp1.client\\src\\Pages\\SignUp.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-11-25T11:01:03.912Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Program.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:05:13.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Home.jsx",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\Pages\\Home.jsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\Pages\\Home.jsx",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\Pages\\Home.jsx",
-              "RelativeToolTip": "reactapp1.client\\src\\Pages\\Home.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-11-25T11:00:39.004Z",
+              "DocumentIndex": 2,
+              "Title": "HashFunction.cs",
+              "DocumentMoniker": "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\HashFunction.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\HashFunction.cs",
+              "ToolTip": "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\HashFunction.cs",
+              "RelativeToolTip": "ReactApp1.Server\\HashFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:16:46.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Account.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\Account.cs",
+              "ToolTip": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\Account.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Classes\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:59:27.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:54:51.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAMwVAAAAAAAAAAAIwN8VAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-25T10:51:26.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReactApp1.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\ReactApp1.Server.csproj",
+              "ToolTip": "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+              "RelativeToolTip": "ReactApp1.Server\\ReactApp1.Server.csproj",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-25T10:51:02.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\App.jsx",
-              "RelativeToolTip": "reactapp1.client\\src\\App.jsx",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-11-25T10:52:55.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HuurdersAccountForm.js",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\HuurdersAccountForm.js",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\HuurdersAccountForm.js",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\src\\HuurdersAccountForm.js",
-              "RelativeToolTip": "reactapp1.client\\src\\HuurdersAccountForm.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-25T10:52:51.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Title": "HuurdersAccount.cs",
+              "DocumentMoniker": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\HuurdersAccount.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\HuurdersAccount.cs",
+              "ToolTip": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\Classes\\HuurdersAccount.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Classes\\HuurdersAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T10:50:07.909Z",
+              "WhenOpened": "2024-11-25T10:43:22.838Z",
               "EditorCaption": ""
             }
           ]

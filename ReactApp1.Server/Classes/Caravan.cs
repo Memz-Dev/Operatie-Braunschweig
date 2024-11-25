@@ -2,6 +2,6 @@
 {
     public class Caravan : Voertuig
     {
-        public int gewicht { get; set; }
+        public int aantalBedden { get; set; }
     }
 }
