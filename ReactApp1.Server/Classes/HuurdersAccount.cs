@@ -9,7 +9,7 @@
 
         public ICollection<HuurAanvraag> aanvragen { get; set; }
 
-        public HuurdersAccount() { }
+        //public HuurdersAccount() { }
 
     }
 }
