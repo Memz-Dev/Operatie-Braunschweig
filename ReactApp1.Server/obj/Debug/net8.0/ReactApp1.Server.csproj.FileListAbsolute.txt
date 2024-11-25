@@ -163,5 +163,5 @@ C:\Users\Faris\Desktop\Operatie-Braunschweig\ReactApp1.Server\bin\Debug\net8.0\R
 C:\Users\Faris\Desktop\Operatie-Braunschweig\ReactApp1.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Faris\Desktop\Operatie-Braunschweig\ReactApp1.Server\obj\Debug\net8.0\staticwebassets\msbuild.ReactApp1.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\Faris\Desktop\Operatie-Braunschweig\ReactApp1.Server\bin\Debug\net8.0\ReactApp1.Server.staticwebassets.runtime.json
-C:\Users\Faris\Desktop\Operatie-Braunschweig\ReactApp1.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
 C:\Users\Faris\Desktop\Operatie-Braunschweig\ReactApp1.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Faris\Desktop\Operatie-Braunschweig\ReactApp1.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
