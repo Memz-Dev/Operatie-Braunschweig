@@ -5,6 +5,7 @@ namespace ReactApp1.Server
 {
     public class HashFunction
     {
+        // Converts a string to bytes and hashes it. Then converts the bytes to hexadecimal notation
         public string CreateHash(string input)
         {
             byte[] tempSource = ASCIIEncoding.ASCII.GetBytes(input);
@@ -19,6 +20,7 @@ namespace ReactApp1.Server
                 return sb.ToString();
             }
         }
+        // takes an existing hash and compares it to the hash made from a new string.
         public bool CompareHashes(string existinghash, string input)
         {
             byte[] existingHash = Convert.FromHexString(existinghash);
