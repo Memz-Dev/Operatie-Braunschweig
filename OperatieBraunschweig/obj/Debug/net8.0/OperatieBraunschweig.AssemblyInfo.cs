@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OperatieBraunschweig")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1523c96fb88bec2838f3366a7acc2ceefb9f3ad6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d03b83ad74a8d616ce38d9957e19c39939cb8e31")]
 [assembly: System.Reflection.AssemblyProductAttribute("OperatieBraunschweig")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OperatieBraunschweig")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
