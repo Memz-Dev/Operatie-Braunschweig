@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {}
+    "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {
+    "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
         "projectName": "ReactApp1.Server",
-        "projectPath": "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
-        "packagesPath": "C:\\Users\\sjoer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\obj\\",
+        "projectPath": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+        "packagesPath": "C:\\Users\\Faris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sjoer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Faris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
