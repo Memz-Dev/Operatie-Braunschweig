@@ -16,6 +16,9 @@ function Navbar() {
                     <li className="buttonHolder">
                         <Link to="/signup"><b>Sign Up</b></Link>
                     </li>
+                    <li className="optionsButton">
+                    <Link to="/options"><b> Options</b></Link>
+                    </li>
                 </ul>
             </div>
             
