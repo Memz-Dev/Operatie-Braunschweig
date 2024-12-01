@@ -12,7 +12,19 @@ const NameEmailForm = () => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        console.log("hello");
+        const data = {
+            Naam: firstName + " " + lastName,
+            EmailAdres: email,
+            Adres: 'Graftak 47',
+            Telefoonnummer: '0793167818',
+            Wachtwoord: '12345678'
+        };
+        fetch('https://localhost:5126/api/account/create-huurdersaccount',{
+            method: 'POST', headers: { 'Content-type': 'application/json' }, body: JSON.stringify(data)
+        }).then(response => response.json())
+            .then(data => console.log('Success:', data))
+            .catch((error) => console.error('Error:', error));
+        console.log('Form submitted')
     }
 
     return (

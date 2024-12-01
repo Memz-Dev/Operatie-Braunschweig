@@ -8,11 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "ReactApp1.Server/1.0.0": {
         "dependencies": {
-<<<<<<< HEAD
-          "Microsoft.AspNetCore.SpaProxy": "9.0.0",
-=======
           "Microsoft.AspNetCore.SpaProxy": "8.0.8",
->>>>>>> 3377966dcdcd2759570d6afe9e1a61a0f9260dd8
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.Design": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
@@ -67,9 +63,6 @@
           }
         }
       },
-<<<<<<< HEAD
-      "Microsoft.AspNetCore.SpaProxy/9.0.0": {},
-=======
       "Microsoft.AspNetCore.SpaProxy/8.0.8": {
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {
@@ -78,7 +71,6 @@
           }
         }
       },
->>>>>>> 3377966dcdcd2759570d6afe9e1a61a0f9260dd8
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -674,8 +666,6 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.Identity.Client/4.61.3": {
         "dependencies": {
           "Microsoft.IdentityModel.Abstractions": "6.35.0",
@@ -772,14 +762,11 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
->>>>>>> 3377966dcdcd2759570d6afe9e1a61a0f9260dd8
       "Microsoft.OpenApi/1.6.22": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "1.6.22.0",
             "fileVersion": "1.6.22.0"
-<<<<<<< HEAD
-=======
           }
         }
       },
@@ -804,7 +791,6 @@
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
->>>>>>> 3377966dcdcd2759570d6afe9e1a61a0f9260dd8
           }
         }
       },
@@ -997,8 +983,6 @@
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.0.854"
-<<<<<<< HEAD
-=======
           }
         }
       },
@@ -1011,7 +995,6 @@
           "lib/net6.0/System.ClientModel.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.24.5302"
->>>>>>> 3377966dcdcd2759570d6afe9e1a61a0f9260dd8
           }
         }
       },
@@ -1327,21 +1310,12 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
-<<<<<<< HEAD
-    "Microsoft.AspNetCore.SpaProxy/9.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-rzrW3ig2daD/G7xa3PQjvVsbudjaDPVvuMFgpNF+cIlRn8lBthRaDY218Yyqetf/ItC3sZb5FFLZhQVAIOuxOg==",
-      "path": "microsoft.aspnetcore.spaproxy/9.0.0",
-      "hashPath": "microsoft.aspnetcore.spaproxy.9.0.0.nupkg.sha512"
-=======
     "Microsoft.AspNetCore.SpaProxy/8.0.8": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-T9Zhb64OmOr2nU0iND7br44EfJrQYHpopxvq33l33uZM2Uu/V2GTHKg5OmGMO3XJuUX59fhqvMyXOcFFj6k1pA==",
       "path": "microsoft.aspnetcore.spaproxy/8.0.8",
       "hashPath": "microsoft.aspnetcore.spaproxy.8.0.8.nupkg.sha512"
->>>>>>> 3377966dcdcd2759570d6afe9e1a61a0f9260dd8
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
@@ -1574,8 +1548,6 @@
       "path": "microsoft.extensions.primitives/9.0.0",
       "hashPath": "microsoft.extensions.primitives.9.0.0.nupkg.sha512"
     },
-<<<<<<< HEAD
-=======
     "Microsoft.Identity.Client/4.61.3": {
       "type": "package",
       "serviceable": true,
@@ -1646,15 +1618,12 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
->>>>>>> 3377966dcdcd2759570d6afe9e1a61a0f9260dd8
     "Microsoft.OpenApi/1.6.22": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-aBvunmrdu/x+4CaA/UP1Jx4xWGwk4kymhoIRnn2Vp+zi5/KOPQJ9EkSXHRUr01WcGKtYl3Au7XfkPJbU1G2sjQ==",
       "path": "microsoft.openapi/1.6.22",
       "hashPath": "microsoft.openapi.1.6.22.nupkg.sha512"
-<<<<<<< HEAD
-=======
     },
     "Microsoft.SqlServer.Server/1.0.0": {
       "type": "package",
@@ -1669,7 +1638,6 @@
       "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
->>>>>>> 3377966dcdcd2759570d6afe9e1a61a0f9260dd8
     },
     "Mono.TextTemplating/3.0.0": {
       "type": "package",
@@ -1733,8 +1701,6 @@
       "sha512": "sha512-rJJony+jsxvpfJM9ZGVxjp0DVpalZv8cAhiMSLW6L2hgUWb7k5qPVuzQHWXtkT8lrG1hQ8vWeR+HUwgCQm9J3A==",
       "path": "swashbuckle.aspnetcore.swaggerui/7.0.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.7.0.0.nupkg.sha512"
-<<<<<<< HEAD
-=======
     },
     "System.ClientModel/1.0.0": {
       "type": "package",
@@ -1742,7 +1708,6 @@
       "sha512": "sha512-I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "path": "system.clientmodel/1.0.0",
       "hashPath": "system.clientmodel.1.0.0.nupkg.sha512"
->>>>>>> 3377966dcdcd2759570d6afe9e1a61a0f9260dd8
     },
     "System.CodeDom/6.0.0": {
       "type": "package",

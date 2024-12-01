@@ -1,4 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Runtime.InteropServices;
+using System.Runtime.Serialization;
+using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 
 namespace ReactApp1.Server.Classes
@@ -16,9 +19,10 @@ namespace ReactApp1.Server.Classes
         [Required(ErrorMessage = "Adres is verplicht")]
         public string Adres { get; set; }
 
+        [Required(ErrorMessage = "Telefoonnummer is verplicht.")]
         [Phone(ErrorMessage = "Ongeldig telefoonnummer.")]
         public string Telefoonnummer { get; set; }
 
-        public ICollection<HuurAanvraag> Aanvragen { get; set; }
+        public ICollection<HuurAanvraag> Aanvragen { get; set; } = new List<HuurAanvraag>();
     }
 }
