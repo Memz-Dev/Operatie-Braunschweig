@@ -1,21 +1,13 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "6IbGF0Pxd+BT9lTjKCAfTEd0rYkcLnTOdMK36/IdIKU=",
-=======
-  "Hash": "A4hAaUMQyyP+LwUkdVj7N/TqPn6Vqs2QtUT0COG6r5Q=",
->>>>>>> d2cacca97c1fee6adfcdfa5dc540033806491574
+  "Hash": "2dusACjRs7pKzZPoKLjEt2aymbIjEJy3gFeWryijMm8=",
   "Source": "ReactApp1.Server",
   "BasePath": "_content/ReactApp1.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Dev\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
-=======
-      "Identity": "C:\\Users\\faris\\Documents\\GitHub\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
->>>>>>> d2cacca97c1fee6adfcdfa5dc540033806491574
+      "Identity": "C:\\Users\\sjoer\\Source\\Repos\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
       "Version": 2,
       "Source": "reactapp1.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
@@ -27,10 +19,6 @@
     }
   ],
   "DiscoveryPatterns": [],
-<<<<<<< HEAD
-  "Assets": []
-=======
   "Assets": [],
   "Endpoints": []
->>>>>>> d2cacca97c1fee6adfcdfa5dc540033806491574
 }
