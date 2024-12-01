@@ -63,10 +63,8 @@ namespace ReactApp1.Server.Controllers
 
         // GET: api/Account/{accountType}/{id}
         [HttpGet("{accountType}/{id}")]
-        public IActionResult GetAccount(string accountType, int id)
+        public async Task<IActionResult> GetAccount(string accountType, int id)
         {
-            // Voeg logica toe om een account op te halen op basis van accountType en ID.
-            // Bijvoorbeeld: "HuurdersAccount", "BedrijfsAccount", etc.
             return Ok(new { message = $"Account van type {accountType} met ID {id} opgehaald." });
         }
 

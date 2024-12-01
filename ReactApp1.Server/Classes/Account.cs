@@ -14,5 +14,9 @@ namespace ReactApp1.Server.Classes
         public Account()
         {
         }
+        public void login(string email, string wachtwoord)
+        {
+
+        }
     }
 }

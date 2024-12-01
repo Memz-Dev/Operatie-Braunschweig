@@ -24,6 +24,11 @@
     padding:10px 15px 10px 15px;
 
 }
+.Signup {
+    box-sizing: inherit;
+    float: right;
+    padding: 10px 15px 10px 15px;
+}
 .optionsButton {
     box-sizing: inherit;
     float: right;
