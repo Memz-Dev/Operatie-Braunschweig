@@ -1,41 +1,20 @@
-﻿namespace ReactApp1.Server.Classes
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ReactApp1.Server.Classes
 {
     public abstract class Account
     {
-        public int accountId { get; set; }
-        public string gebruikersNaam { get; set; }
-        public string wachtwoord { get; set; }
+        [Key]
+        public int AccountId { get; set; }
 
-        public Account() 
+        [Required(ErrorMessage = "Wachtwoord is verplicht.")]
+        [StringLength(100, MinimumLength = 8, ErrorMessage = "Het wachtwoord moet minimaal 8 tekens lang zijn.")]
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$",
+         ErrorMessage = "Het wachtwoord moet minimaal één hoofdletter, één kleine letter, één cijfer en één speciaal teken bevatten.")]
+        public string Wachtwoord { get; set; }
+
+        public Account()
         {
-            
         }
-    }
-    public class HuurdersAccount : Account
-    {
-        public string Naam {  get; set; }
-        public string EmailAdres {  get; set; }
-        public string Adres { get; set; }
-        public string Telefoonnummer { get; set; }
-        public HuurdersAccount() { }
-
-    }
-    public class AbonnementsAccount : Account
-    {
-        public int BedrijfId { get; set; }
-        public string BedrijfsNaam { get; set; }
-        public string Adres { get; set; }
-        public string KvkNummer { get; set; }
-        public AbonnementsAccount() { }
-
-    }
-    public class BeheerdersAccount: Account
-    {
-        public BeheerdersAccount() { }
-    }
-    public class  MedewerkersAccount: Account 
-    {
-        public string rol {  get; set; }
-        public MedewerkersAccount() { }
     }
 }
