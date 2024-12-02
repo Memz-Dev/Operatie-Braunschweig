@@ -5528,19 +5528,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
       "projectName": "ReactApp1.Server",
       "projectPath": "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
       "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
-      "projectName": "ReactApp1.Server",
-      "projectPath": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
-      "packagesPath": "C:\\Users\\sjoer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\obj\\",
->>>>>>> fc38962caf6d449aa9c2f82ec5bd28c448deca27
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5555,11 +5547,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
         "C:\\Users\\samue\\.nuget\\packages\\": {},
-=======
-        "C:\\Program Files\\dotnet\\library-packs": {},
->>>>>>> fc38962caf6d449aa9c2f82ec5bd28c448deca27
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

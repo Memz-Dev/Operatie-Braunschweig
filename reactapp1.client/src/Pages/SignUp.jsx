@@ -39,7 +39,7 @@ const SignupForm = () => {
     }
 
     return (
-<<<<<<< HEAD
+
         <div className="Page" style={{ alignItems:'center' }}>
             <h2 style={{textAlign:'center'}} >Vul hier je accountdetails in</h2>
             <form onSubmit={onSubmit}>
@@ -48,9 +48,9 @@ const SignupForm = () => {
                 <input type="text" id="firstName" name="firstName" onChange={(e) => setFirstName(e.target.value)}></input>
                 <br></br>
                 <br></br>
-=======
+
         <div className="Page" style={{ alignItems: 'center' }}>
->>>>>>> 18fb2fc832e6e3e6a56764f9abb6c40e0094acdf
+
 
             <div
                 className='floatingPage'
