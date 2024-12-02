@@ -1,23 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {}
+<<<<<<< HEAD
+    "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {
+    "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+        "projectUniqueName": "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
         "projectName": "ReactApp1.Server",
-        "projectPath": "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
-        "packagesPath": "C:\\Users\\lapto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\obj\\",
+        "projectPath": "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+        "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\obj\\",
+=======
+    "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+        "projectName": "ReactApp1.Server",
+        "projectPath": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+        "packagesPath": "C:\\Users\\sjoer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\obj\\",
+>>>>>>> fc38962caf6d449aa9c2f82ec5bd28c448deca27
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lapto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +40,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+          "C:\\Users\\samue\\.nuget\\packages\\": {},
+=======
           "C:\\Program Files\\dotnet\\library-packs": {},
+>>>>>>> fc38962caf6d449aa9c2f82ec5bd28c448deca27
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +61,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -102,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
