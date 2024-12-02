@@ -13,8 +13,14 @@ function Navbar() {
                     <li className="buttonHolder">
                         <Link to="/"><b>Home</b></Link>
                     </li>
-                    <li className="buttonHolder">
+                    <li className="optionsButton">
+                    <Link to="/options"><b> Options</b></Link>
+                    </li>
+                    <li className="Signup">
                         <Link to="/signup"><b>Sign Up</b></Link>
+                    </li>
+                    <li className="Signup">
+                        <Link to="/login"><b>Login</b></Link>
                     </li>
                 </ul>
             </div>
