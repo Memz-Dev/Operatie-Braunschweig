@@ -14,7 +14,11 @@ public class DatabaseContext : DbContext
 
     public DbSet<HuurAanvraag> HuurAanvragen { get; set; }
 
+    protected readonly IConfiguration Configuration;
+
     // Constructor for DI (Dependency Injection)
+
+
     public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
     {
         
@@ -23,10 +27,9 @@ public class DatabaseContext : DbContext
     // Configure the database options here only if not using DI
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        if (!optionsBuilder.IsConfigured)
-        {
-            optionsBuilder.UseSqlite("Data Source=database.db");
-        }
+        base.OnConfiguring(optionsBuilder);
+        optionsBuilder.UseSqlite("Data Source=database.db");
+
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

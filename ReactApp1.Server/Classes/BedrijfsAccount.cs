@@ -14,7 +14,7 @@ namespace ReactApp1.Server.Classes
 
         [Required(ErrorMessage = "Adres is verplicht")]
         [StringLength(255, ErrorMessage = "Adres mag niet langer zijn dan 255 tekens")]
-        public string adres { get; set; }
+        public string bedrijfAdres { get; set; }
 
         [Required(ErrorMessage = "KvK-nummer is verplicht")]
         [StringLength(20, ErrorMessage = "KvK-nummer mag niet langer zijn dan 20 tekens")]

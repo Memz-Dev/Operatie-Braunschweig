@@ -1,14 +1,14 @@
 ﻿using System.Text.Encodings;
 using System.Security.Cryptography;
 using System.Text;
-namespace ReactApp1.Server
+namespace ReactApp1.Server.Functions
 {
     public class HashFunction
-    {
+    { //Remap to services 
         // Converts a string to bytes and hashes it. Then converts the bytes to hexadecimal notation
         public string CreateHash(string input)
         {
-            byte[] tempSource = ASCIIEncoding.ASCII.GetBytes(input);
+            byte[] tempSource = Encoding.ASCII.GetBytes(input);
             using (SHA256 sha256 = SHA256.Create())
             {
                 byte[] tempHash = sha256.ComputeHash(tempSource);
@@ -24,7 +24,7 @@ namespace ReactApp1.Server
         public bool CompareHashes(string existinghash, string input)
         {
             byte[] existingHash = Convert.FromHexString(existinghash);
-            byte[] tempHash = ASCIIEncoding.ASCII.GetBytes(input);
+            byte[] tempHash = Encoding.ASCII.GetBytes(input);
             using (SHA256 sha256 = SHA256.Create())
             {
                 byte[] compareHash = sha256.ComputeHash(tempHash);
@@ -36,5 +36,5 @@ namespace ReactApp1.Server
                 return false;
             }
         }
-   }
+    }
 }

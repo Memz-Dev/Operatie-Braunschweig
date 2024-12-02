@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ReactApp1.Server.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20241125133954_Beginvalidatie")]
-    partial class Beginvalidatie
+    [Migration("20241202195554_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -52,7 +52,7 @@ namespace ReactApp1.Server.Migrations
                     b.Property<int>("aanschafJaar")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("deuren")
+                    b.Property<int>("aantalDeuren")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("kleur")
@@ -197,8 +197,9 @@ namespace ReactApp1.Server.Migrations
                 {
                     b.HasBaseType("ReactApp1.Server.Classes.Account");
 
-                    b.Property<string>("adres")
+                    b.Property<string>("bedrijfAdres")
                         .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("bedrijfId")
@@ -206,10 +207,12 @@ namespace ReactApp1.Server.Migrations
 
                     b.Property<string>("bedrijfsNaam")
                         .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("kvkNummer")
                         .IsRequired()
+                        .HasMaxLength(20)
                         .HasColumnType("TEXT");
 
                     b.HasDiscriminator().HasValue("BedrijfsAccount");

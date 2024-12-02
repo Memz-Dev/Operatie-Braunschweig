@@ -33,7 +33,7 @@ namespace ReactApp1.Server.Migrations
 
                     b.HasKey("AccountId");
 
-                    b.ToTable("Account", (string)null);
+                    b.ToTable("Account");
 
                     b.HasDiscriminator().HasValue("Account");
 
@@ -70,7 +70,7 @@ namespace ReactApp1.Server.Migrations
 
                     b.HasKey("voertuigId");
 
-                    b.ToTable("Autos", (string)null);
+                    b.ToTable("Autos");
                 });
 
             modelBuilder.Entity("ReactApp1.Server.Classes.Camper", b =>
@@ -103,7 +103,7 @@ namespace ReactApp1.Server.Migrations
 
                     b.HasKey("voertuigId");
 
-                    b.ToTable("Campers", (string)null);
+                    b.ToTable("Campers");
                 });
 
             modelBuilder.Entity("ReactApp1.Server.Classes.Caravan", b =>
@@ -112,10 +112,10 @@ namespace ReactApp1.Server.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Bedden")
+                    b.Property<int>("aanschafJaar")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("aanschafJaar")
+                    b.Property<int>("aantalBedden")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("kleur")
@@ -136,7 +136,7 @@ namespace ReactApp1.Server.Migrations
 
                     b.HasKey("voertuigId");
 
-                    b.ToTable("Caravans", (string)null);
+                    b.ToTable("Caravans");
                 });
 
             modelBuilder.Entity("ReactApp1.Server.Classes.HuurAanvraag", b =>
@@ -187,15 +187,16 @@ namespace ReactApp1.Server.Migrations
 
                     b.HasIndex("accountid");
 
-                    b.ToTable("HuurAanvragen", (string)null);
+                    b.ToTable("HuurAanvragen");
                 });
 
             modelBuilder.Entity("ReactApp1.Server.Classes.BedrijfsAccount", b =>
                 {
                     b.HasBaseType("ReactApp1.Server.Classes.Account");
 
-                    b.Property<string>("adres")
+                    b.Property<string>("bedrijfAdres")
                         .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("bedrijfId")
@@ -203,10 +204,12 @@ namespace ReactApp1.Server.Migrations
 
                     b.Property<string>("bedrijfsNaam")
                         .IsRequired()
+                        .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("kvkNummer")
                         .IsRequired()
+                        .HasMaxLength(20)
                         .HasColumnType("TEXT");
 
                     b.HasDiscriminator().HasValue("BedrijfsAccount");

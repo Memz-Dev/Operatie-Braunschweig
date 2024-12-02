@@ -5,7 +5,7 @@
 namespace ReactApp1.Server.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -14,24 +14,23 @@ namespace ReactApp1.Server.Migrations
                 name: "Account",
                 columns: table => new
                 {
-                    accountId = table.Column<int>(type: "INTEGER", nullable: false)
+                    AccountId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    gebruikersNaam = table.Column<string>(type: "TEXT", nullable: false),
-                    wachtwoord = table.Column<string>(type: "TEXT", nullable: false),
+                    Wachtwoord = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
                     Discriminator = table.Column<string>(type: "TEXT", maxLength: 21, nullable: false),
                     bedrijfId = table.Column<int>(type: "INTEGER", nullable: true),
-                    bedrijfsNaam = table.Column<string>(type: "TEXT", nullable: true),
-                    adres = table.Column<string>(type: "TEXT", nullable: true),
-                    kvkNummer = table.Column<string>(type: "TEXT", nullable: true),
-                    naam = table.Column<string>(type: "TEXT", nullable: true),
-                    emailAdres = table.Column<string>(type: "TEXT", nullable: true),
-                    HuurdersAccount_adres = table.Column<string>(type: "TEXT", nullable: true),
-                    telefoonnummer = table.Column<string>(type: "TEXT", nullable: true),
+                    bedrijfsNaam = table.Column<string>(type: "TEXT", maxLength: 255, nullable: true),
+                    bedrijfAdres = table.Column<string>(type: "TEXT", maxLength: 255, nullable: true),
+                    kvkNummer = table.Column<string>(type: "TEXT", maxLength: 20, nullable: true),
+                    Naam = table.Column<string>(type: "TEXT", nullable: true),
+                    EmailAdres = table.Column<string>(type: "TEXT", nullable: true),
+                    Adres = table.Column<string>(type: "TEXT", nullable: true),
+                    Telefoonnummer = table.Column<string>(type: "TEXT", nullable: true),
                     rol = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Account", x => x.accountId);
+                    table.PrimaryKey("PK_Account", x => x.AccountId);
                 });
 
             migrationBuilder.CreateTable(
@@ -40,7 +39,7 @@ namespace ReactApp1.Server.Migrations
                 {
                     voertuigId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    dueren = table.Column<int>(type: "INTEGER", nullable: false),
+                    aantalDeuren = table.Column<int>(type: "INTEGER", nullable: false),
                     merk = table.Column<string>(type: "TEXT", nullable: false),
                     type = table.Column<string>(type: "TEXT", nullable: false),
                     status = table.Column<string>(type: "TEXT", nullable: false),
@@ -76,7 +75,7 @@ namespace ReactApp1.Server.Migrations
                 {
                     voertuigId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    gewicht = table.Column<int>(type: "INTEGER", nullable: false),
+                    aantalBedden = table.Column<int>(type: "INTEGER", nullable: false),
                     merk = table.Column<string>(type: "TEXT", nullable: false),
                     type = table.Column<string>(type: "TEXT", nullable: false),
                     status = table.Column<string>(type: "TEXT", nullable: false),
@@ -89,7 +88,7 @@ namespace ReactApp1.Server.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "HuurAanvraags",
+                name: "HuurAanvragen",
                 columns: table => new
                 {
                     huurAanvraagId = table.Column<int>(type: "INTEGER", nullable: false)
@@ -101,23 +100,45 @@ namespace ReactApp1.Server.Migrations
                     huurreden = table.Column<string>(type: "TEXT", nullable: false),
                     eindbestemming = table.Column<string>(type: "TEXT", nullable: false),
                     verwachtingreisafstand = table.Column<int>(type: "INTEGER", nullable: false),
-                    accountid = table.Column<int>(type: "INTEGER", nullable: false)
+                    accountid = table.Column<int>(type: "INTEGER", nullable: false),
+                    BedrijfsAccountAccountId = table.Column<int>(type: "INTEGER", nullable: true),
+                    HuurdersAccountAccountId = table.Column<int>(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_HuurAanvraags", x => x.huurAanvraagId);
+                    table.PrimaryKey("PK_HuurAanvragen", x => x.huurAanvraagId);
                     table.ForeignKey(
-                        name: "FK_HuurAanvraags_Account_accountid",
+                        name: "FK_HuurAanvragen_Account_BedrijfsAccountAccountId",
+                        column: x => x.BedrijfsAccountAccountId,
+                        principalTable: "Account",
+                        principalColumn: "AccountId");
+                    table.ForeignKey(
+                        name: "FK_HuurAanvragen_Account_HuurdersAccountAccountId",
+                        column: x => x.HuurdersAccountAccountId,
+                        principalTable: "Account",
+                        principalColumn: "AccountId");
+                    table.ForeignKey(
+                        name: "FK_HuurAanvragen_Account_accountid",
                         column: x => x.accountid,
                         principalTable: "Account",
-                        principalColumn: "accountId",
+                        principalColumn: "AccountId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_HuurAanvraags_accountid",
-                table: "HuurAanvraags",
+                name: "IX_HuurAanvragen_accountid",
+                table: "HuurAanvragen",
                 column: "accountid");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_HuurAanvragen_BedrijfsAccountAccountId",
+                table: "HuurAanvragen",
+                column: "BedrijfsAccountAccountId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_HuurAanvragen_HuurdersAccountAccountId",
+                table: "HuurAanvragen",
+                column: "HuurdersAccountAccountId");
         }
 
         /// <inheritdoc />
@@ -133,7 +154,7 @@ namespace ReactApp1.Server.Migrations
                 name: "Caravans");
 
             migrationBuilder.DropTable(
-                name: "HuurAanvraags");
+                name: "HuurAanvragen");
 
             migrationBuilder.DropTable(
                 name: "Account");
