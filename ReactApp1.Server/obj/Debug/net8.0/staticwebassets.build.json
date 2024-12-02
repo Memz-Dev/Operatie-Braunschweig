@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "llE06CgOi9PAn9mZ3NjvT4JDQ8SnxF4hIaXZTDozpow=",
+  "Hash": "v3Dzi/5AEGAW3kwn2NSZtmLSGJ0rByM2T5ZQhQKG6aI=",
   "Source": "ReactApp1.Server",
   "BasePath": "_content/ReactApp1.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
+      "Identity": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\reactapp1.client\\reactapp1.client.esproj",
       "Version": 2,
       "Source": "reactapp1.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,15 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
-  "DiscoveryPatterns": [
-    {
-      "Name": "ReactApp1.Server\\wwwroot",
-      "Source": "ReactApp1.Server",
-      "ContentRoot": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\wwwroot\\",
-      "BasePath": "_content/ReactApp1.Server",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": [],
   "Endpoints": []
 }

@@ -6,7 +6,8 @@ const LoginForm = () => {
     const [password, setPassword] = useState('');
 
     const onSubmit = (e) => {
-        console.log('het werkt ig')
+        e.preventDefault();
+        fetch()
     }
     return(
     <div className="Page" style={{ alignItems: 'center' }}>
@@ -38,7 +39,6 @@ function LoginPage() {
         </div>
 
     );
-
 }
 
 export default LoginPage;
