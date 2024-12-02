@@ -11,13 +11,9 @@
 
   <ItemGroup>
     <Compile Remove="Classes\obj\**" />
-    <Compile Remove="wwwroot\**" />
     <Content Remove="Classes\obj\**" />
-    <Content Remove="wwwroot\**" />
     <EmbeddedResource Remove="Classes\obj\**" />
-    <EmbeddedResource Remove="wwwroot\**" />
     <None Remove="Classes\obj\**" />
-    <None Remove="wwwroot\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,6 +38,10 @@
     <ProjectReference Include="..\reactapp1.client\reactapp1.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
