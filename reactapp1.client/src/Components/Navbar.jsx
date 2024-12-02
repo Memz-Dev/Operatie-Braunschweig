@@ -1,12 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from '../assets/CarAndAll.png';
 import './Navbar.css';
 
 function Navbar() {
     return (
-        <div className = "navbar">
-            <h1 className="topText">CarAndAll</h1>
+        <div className="navbar">
+            
+            <div className='LogoText'>
+                <div className="logoContainer">
+                    <img src={logo} alt="CarAndAll Logo" className="logo" />
+                </div>
+                <div>
+                    <h1 className="topText">CarAndAll</h1>
+                </div>
+            </div>
 
             <div className = "holderDiv">
                 <ul className="itemList">
