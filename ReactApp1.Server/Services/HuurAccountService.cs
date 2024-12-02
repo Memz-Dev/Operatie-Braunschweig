@@ -1,24 +1,20 @@
 ﻿using Microsoft.Exchange.WebServices.Data;
-using Microsoft.AspNetCore.Mvc;
-using System.ComponentModel.DataAnnotations;
-//using System.Web.Mvc;
 using ReactApp1.Server.DTO;
 using ReactApp1.Server.Classes;
 
-namespace ReactApp1.Server.Functions
+namespace ReactApp1.Server.Services
 {
     public class HuurAccountService
     {
-        private readonly HashFunction _hashFunction;
+        private readonly HashingService _hashFunction;
         private readonly DatabaseContext _databaseContext;
 
-        public HuurAccountService(HashFunction hashFunction, DatabaseContext databaseContext)
-
+        public HuurAccountService(HashingService hashFunction, DatabaseContext databaseContext)
         {
             _hashFunction = hashFunction;
             _databaseContext = databaseContext;
         }
-      public async Task<ServiceResult> CreateHuurderAsync(HuurRequest request)
+        public async Task<ServiceResult> CreateHuurderAsync(HuurRequest request)
         {
             var user = new HuurdersAccount
             {

@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using ReactApp1.Server;
 using ReactApp1.Server.Classes;
-using ReactApp1.Server.Functions;
+using ReactApp1.Server.Services;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,8 +14,8 @@ builder.Services.AddCors(options =>
                           .AllowAnyHeader());
 });
 // Add services to the container.
+builder.Services.AddScoped<HashingService>();
 builder.Services.AddScoped<HuurAccountService>();
-builder.Services.AddScoped<HashFunction>();
 // Configure the DatabaseContext
 builder.Services.AddDbContext<DatabaseContext>(options =>
     options.UseSqlite("Data Source=database.db")); // Replace with your connection string if needed

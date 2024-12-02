@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ReactApp1.Server.Classes;
-using ReactApp1.Server.Functions;
+using ReactApp1.Server.Services;
 
 namespace ReactApp1.Server.Controllers
 {
@@ -9,19 +9,32 @@ namespace ReactApp1.Server.Controllers
     public class AccountController : ControllerBase
     {
         private readonly DatabaseContext _context;
+
+        private readonly EmailService _emailService;  // Voeg de emailservice toe
+        private readonly HuurAccountService _accountService;
+
+        // Constructor
+        public AccountController(DatabaseContext context, HuurAccountService accountService)
+        {
+            _context = context;
+            _emailService = new EmailService();  // Initialiseer de emailservice
+            _accountService = accountService;
+        }
+
+
         // POST: api/Account/create-huurdersaccount
         [HttpPost("create-huurdersaccount")]
         public async Task<IActionResult> CreateHuurdersAccount([FromBody] DTO.HuurRequest account)
         {
-            var result = await _huurAccountService.CreateHuurderAsync(account);
+            var result = await _accountService.CreateHuurderAsync(account);
             if (result != Microsoft.Exchange.WebServices.Data.ServiceResult.Success)
             {
                 return Problem();
             }
 
             // Stuur een bevestigingsmail
-            _emailService.SendEmail(account.EmailAdres, "Bevestiging van je account",
-                $"<h1>Welkom, {account.Naam}!</h1><p>Je huurdersaccount is succesvol aangemaakt.</p>");
+            //_emailService.SendEmail(account.EmailAdres, "Bevestiging van je account",
+            //    $"<h1>Welkom, {account.Naam}!</h1><p>Je huurdersaccount is succesvol aangemaakt.</p>");
             return Created();
         }
 

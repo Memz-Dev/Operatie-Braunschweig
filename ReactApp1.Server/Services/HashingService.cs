@@ -1,9 +1,9 @@
 ﻿using System.Text.Encodings;
 using System.Security.Cryptography;
 using System.Text;
-namespace ReactApp1.Server.Functions
+namespace ReactApp1.Server.Services
 {
-    public class HashFunction
+    public class HashingService
     { //Remap to services 
         // Converts a string to bytes and hashes it. Then converts the bytes to hexadecimal notation
         public string CreateHash(string input)
