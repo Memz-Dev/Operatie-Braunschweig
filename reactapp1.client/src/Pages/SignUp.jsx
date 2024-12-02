@@ -1,6 +1,6 @@
 import React, { useState } from 'react'; // Add this line
 import './Page.css'
-
+import './SignUp.css'
 
 // + ChatGpt "Help me write a reactjs input form"
 const SignupForm = () => {
@@ -11,6 +11,8 @@ const SignupForm = () => {
     const [adres, setAdres] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
     const [password, setPassword] = useState('');
+
+    const [signupType,setSignupType] = useState('Particulier')
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -29,47 +31,78 @@ const SignupForm = () => {
         
     }
 
+    const onParticulier = (e) => {
+
+    }
+    const onZakelijk = (e) => {
+
+    }
+
     return (
-        <div className="Page" style={{ alignItems:'center' }}>
-            <h2 style={{textAlign:'center'}} >Fill out your details</h2>
-            <form onSubmit={onSubmit}>
-                <label htmlFor="firstName">Voornaam</label>
-                <br></br>
-                <input type="text" id="firstName" name="firstName" onChange={(e) => setFirstName(e.target.value)}></input>
-                <br></br>
-                <br></br>
+        <div className="Page" style={{ alignItems: 'center' }}>
 
-                <label htmlFor="lastName">Achternaam</label>
-                <br></br>
-                <input type="text" id="lastName" name="lastName" onChange={(e) => setLastName(e.target.value)}></input>
-                <br></br>
-                <br></br>
+            <div
+                className='floatingPage'
+            >
 
-                <label htmlFor="email">E-Mail</label>
-                <br></br>
-                <input type="email" id="email" name="email" onChange={(e) => setEmail(e.target.value)}></input>
-                <br></br>
-                <br></br>
+                <div style={{ textAlign: 'center' }}>
+                    <button
+                        onClick={onParticulier}
+                        className='FormTypeButton'
+                    >
+                        Particulier
+                    </button>
+                    <button
+                        onClick={onZakelijk}
+                        className='FormTypeButton'
+                    >
+                        Zakelijk
+                    </button>
+                </div>
 
-                <label htmlFor="adress">Adres</label>
-                <br></br>
-                <input type="text" id="adres" name="adres" onChange={(e) => setAdres(e.target.value)}></input>
-                <br></br>
-                <br></br>
+                <h2 style={{ textAlign: 'center' }} >Fill out your details</h2>
+                <form className='Form' onSubmit={onSubmit}>
+                    <label htmlFor="firstName">Voornaam</label>
+                    <br></br>
+                    <input type="text" id="firstName" name="firstName" onChange={(e) => setFirstName(e.target.value)}></input>
+                    <br></br>
+                    <br></br>
 
-                <label htmlFor="PhoneNumber">Telefoonnummer</label>
-                <br></br>
-                <input type="number" id="telefoonnummer" name="telefoonnummer" onChange={(e) => setPhoneNumber(e.target.value)}></input>
-                <br></br>
-                <br></br>
+                    <label htmlFor="lastName">Achternaam</label>
+                    <br></br>
+                    <input type="text" id="lastName" name="lastName" onChange={(e) => setLastName(e.target.value)}></input>
+                    <br></br>
+                    <br></br>
 
-                <label htmlFor="Password">Wachtwoord</label>
-                <br></br>
-                <input type="password" id="wachtwoord" name="wachtwoord" onChange={(e) => setPassword(e.target.value)}></input>
-                <br></br>
-                <br></br>
-                <input type="submit" value="Submit"></input>
-            </form>
+                    <label htmlFor="email">E-Mail</label>
+                    <br></br>
+                    <input type="email" id="email" name="email" onChange={(e) => setEmail(e.target.value)}></input>
+                    <br></br>
+                    <br></br>
+
+                    <label htmlFor="adress">Adres</label>
+                    <br></br>
+                    <input type="text" id="adres" name="adres" onChange={(e) => setAdres(e.target.value)}></input>
+                    <br></br>
+                    <br></br>
+
+                    <label htmlFor="PhoneNumber">Telefoonnummer</label>
+                    <br></br>
+                    <input type="number" id="telefoonnummer" name="telefoonnummer" onChange={(e) => setPhoneNumber(e.target.value)}></input>
+                    <br></br>
+                    <br></br>
+
+                    <label htmlFor="Password">Wachtwoord</label>
+                    <br></br>
+                    <input type="password" id="wachtwoord" name="wachtwoord" onChange={(e) => setPassword(e.target.value)}></input>
+                    <br></br>
+                    <br></br>
+                    <input type="submit" value="Submit"></input>
+                </form>
+
+            </div>
+
+            
         </div>
     );
 };
@@ -79,7 +112,7 @@ function SignUpPage() {
     return (
 
         <div className = "FormDiv">
-            <h1>Sign Up</h1>
+            <h1 style={{textAlign:'center'}} >Sign Up</h1>
             <SignupForm/>
         </div>
         
