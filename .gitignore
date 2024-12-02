@@ -2,13 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-<<<<<<< HEAD
-/.vs/OperatieBraunschweig/FileContentIndex
-=======
+/.vs/*
 /.vs
-/.vs/ReactApp1/v17/.suo
-/.vs/ReactApp1/v17/.suo
->>>>>>> d75e59412fc58a1def7b1d6d003cc5838d858c30
 /ReactApp1.Server/Classes/Account.cs
 /.gitignore
-/.gitignore
+*.db
+*.db-wal
+*.db-shm
