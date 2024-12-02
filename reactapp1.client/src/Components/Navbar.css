@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #212121;
+}
+
+.topText {
+    font-weight: bold;
+    color: #fff;
+    font-size: 32px;
+    padding-left:15px;
+}
+
+.holderDiv {
+    height: fit-content;
+    background-color: #141414;
+}
+
+.itemList {
+    list-style-type:none;
+    overflow:hidden;
+}
+.buttonHolder {
+    box-sizing:inherit;
+    float:left;
+    padding:10px 15px 10px 15px;
+
+}
+.Signup {
+    box-sizing: inherit;
+    float: right;
+    padding: 10px 15px 10px 15px;
+}
+.optionsButton {
+    box-sizing: inherit;
+    float: right;
+    padding: 10px 15px 10px 15px;
+}
