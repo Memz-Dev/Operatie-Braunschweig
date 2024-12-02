@@ -6,17 +6,36 @@
     font-weight: bold;
     color: #fff;
     font-size: 32px;
-    padding-left:15px;
+    margin-left: 10px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 15px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 3px 3px;
+}
 }
 
 .holderDiv {
     height: fit-content;
     background-color: #141414;
+    align-content:start;
 }
 
 .itemList {
-    list-style-type:none;
-    overflow:hidden;
+    list-style-type: none;
+    overflow: hidden;
+    align-content: center;
+    margin: 0px 0px 0px 0px;
 }
 .buttonHolder {
     box-sizing:inherit;
@@ -33,4 +52,7 @@
     box-sizing: inherit;
     float: right;
     padding: 10px 15px 10px 15px;
+}
+.LogoText {
+    display: flex;
 }

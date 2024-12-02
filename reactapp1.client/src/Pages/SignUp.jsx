@@ -31,46 +31,9 @@ const SignupForm = () => {
         
     }
 
-    const onParticulier = (e) => {
-
-    }
-    const onZakelijk = (e) => {
-
-    }
-
-    return (
-<<<<<<< HEAD
-        <div className="Page" style={{ alignItems:'center' }}>
-            <h2 style={{textAlign:'center'}} >Vul hier je accountdetails in</h2>
-            <form onSubmit={onSubmit}>
-                <label htmlFor="firstName">Voornaam</label>
-                <br></br>
-                <input type="text" id="firstName" name="firstName" onChange={(e) => setFirstName(e.target.value)}></input>
-                <br></br>
-                <br></br>
-=======
-        <div className="Page" style={{ alignItems: 'center' }}>
->>>>>>> 18fb2fc832e6e3e6a56764f9abb6c40e0094acdf
-
-            <div
-                className='floatingPage'
-            >
-
-                <div style={{ textAlign: 'center' }}>
-                    <button
-                        onClick={onParticulier}
-                        className='FormTypeButton'
-                    >
-                        Particulier
-                    </button>
-                    <button
-                        onClick={onZakelijk}
-                        className='FormTypeButton'
-                    >
-                        Zakelijk
-                    </button>
-                </div>
-
+    const ParticulierSignUp = () => {
+        return (
+            <div>
                 <h2 style={{ textAlign: 'center' }} >Fill out your details</h2>
                 <form className='Form' onSubmit={onSubmit}>
                     <label htmlFor="firstName">Voornaam</label>
@@ -110,25 +73,73 @@ const SignupForm = () => {
                     <br></br>
                     <input type="submit" value="Submit"></input>
                 </form>
+            </div>
+        );
+    }
+
+    const ZakelijkSelection = () => {
+        return (
+            <div>
+                <div style={{ display: 'flex', justifyContent:'center' }}>
+                    <h3 className='ZakelijkeHuurdersType'>
+                        Zakelijke Huurder
+                    </h3>
+                    <h3 className='ZakelijkeHuurdersType'>
+                        Medewerker
+                    </h3>
+                </div>
+            </div>
+        );
+    }
+
+    const onParticulier = (e) => {
+        setSignupType('Particulier')
+    }
+    const onZakelijk = (e) => {
+        setSignupType('Zakelijk')
+    }
+
+    return (
+  
+        <div className="Page" style={{ alignItems: 'center' }}>
+
+            <div
+                className='floatingPage'
+            >
+
+                <div style={{ textAlign: 'center' , justifyContent: 'center' }}>
+                    <button
+                        onClick={onParticulier}
+                        className={signupType === "Particulier" ? "FormTypeButtonSelected" :  "FormTypeButton"}
+                    >
+                        Particulier
+                    </button>
+                    <button
+                        onClick={onZakelijk}
+                        className={signupType === "Zakelijk" ? "FormTypeButtonSelected" : "FormTypeButton"}
+                    >
+                        Zakelijk
+                    </button>
+                </div>
+
+                {signupType === "Particulier" ? <ParticulierSignUp/> : signupType === "Zakelijk" ? <ZakelijkSelection/> : null}
 
             </div>
 
             
         </div>
     );
-};
+}
+
 
 function SignUpPage() {
-
     return (
-
-        <div className = "FormDiv">
-            <h1 style={{textAlign:'center'}} >Sign Up</h1>
-            <SignupForm/>
+        <div className="FormDiv">
+            <h1 style={{ textAlign: 'center' }} >Sign Up</h1>
+            <SignupForm />
         </div>
-        
     );
 
 }
-
 export default SignUpPage;
+
