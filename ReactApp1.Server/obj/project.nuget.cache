@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "EsEVVnNEv8U=",
   "success": true,
   "projectFilePath": "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+=======
+  "dgSpecHash": "uBmChF2PHaQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\ReactApp1.Server.csproj",
+>>>>>>> fc38962caf6d449aa9c2f82ec5bd28c448deca27
   "expectedPackageFiles": [
     "C:\\Users\\samue\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\samue\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

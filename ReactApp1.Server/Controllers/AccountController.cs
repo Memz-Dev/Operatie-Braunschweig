@@ -8,6 +8,10 @@ namespace ReactApp1.Server.Controllers
     public class AccountController : ControllerBase
     {
         private readonly DatabaseContext _context;
+        public AccountController(DatabaseContext context)
+        {
+            _context = context;
+        }
         // POST: api/Account/create-huurdersaccount
         [HttpPost("create-huurdersaccount")]
         public async Task<IActionResult> CreateHuurdersAccount([FromBody] HuurdersAccount account)
