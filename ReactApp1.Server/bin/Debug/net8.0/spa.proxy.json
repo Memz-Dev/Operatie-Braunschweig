@@ -3,7 +3,11 @@
 "ServerUrl": "https://localhost:51125",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
+<<<<<<< HEAD
 "WorkingDirectory": "C:\\Users\\lapto\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\..\\reactapp1.client",
+=======
+"WorkingDirectory": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\..\\reactapp1.client",
+>>>>>>> ce721ebd7fc16c51aab9c277d7a032332847091f
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
