@@ -8,6 +8,15 @@ namespace ReactApp1.Server.Controllers
     public class AccountController : ControllerBase
     {
         private readonly DatabaseContext _context;
+        private readonly EmailService _emailService;  // Voeg de emailservice toe
+
+        // Constructor
+        public AccountController(DatabaseContext context)
+        {
+            _context = context;
+            _emailService = new EmailService();  // Initialiseer de emailservice
+        }
+
         // POST: api/Account/create-huurdersaccount
         [HttpPost("create-huurdersaccount")]
         public async Task<IActionResult> CreateHuurdersAccount([FromBody] HuurdersAccount account)
@@ -16,6 +25,11 @@ namespace ReactApp1.Server.Controllers
             {
                 await _context.HuurdersAccounts.AddAsync(account);
                 await _context.SaveChangesAsync();
+
+                // Stuur een bevestigingsmail
+                _emailService.SendEmail(account.EmailAdres, "Bevestiging van je account",
+                    $"<h1>Welkom, {account.Naam}!</h1><p>Je huurdersaccount is succesvol aangemaakt.</p>");
+
                 return Ok(new { message = "Huurdersaccount succesvol aangemaakt!", account }); 
             }
 
