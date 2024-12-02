@@ -8,6 +8,7 @@ namespace ReactApp1.Server.Controllers
     public class AccountController : ControllerBase
     {
         private readonly DatabaseContext _context;
+<<<<<<< HEAD
         private readonly EmailService _emailService;  // Voeg de emailservice toe
 
         // Constructor
@@ -17,6 +18,12 @@ namespace ReactApp1.Server.Controllers
             _emailService = new EmailService();  // Initialiseer de emailservice
         }
 
+=======
+        public AccountController(DatabaseContext context)
+        {
+            _context = context;
+        }
+>>>>>>> fc38962caf6d449aa9c2f82ec5bd28c448deca27
         // POST: api/Account/create-huurdersaccount
         [HttpPost("create-huurdersaccount")]
         public async Task<IActionResult> CreateHuurdersAccount([FromBody] HuurdersAccount account)

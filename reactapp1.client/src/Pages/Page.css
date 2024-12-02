@@ -1,7 +1,19 @@
 /* styles.css */
 .Page {
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
-    background-color: #4a807a;
+}
+
+.Form {
+    text-align: center
+}
+
+.floatingPage {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 50px;
+    border-radius: 10px;
+    width: 25%;
+    background-color: #2e2d2d;
 }
