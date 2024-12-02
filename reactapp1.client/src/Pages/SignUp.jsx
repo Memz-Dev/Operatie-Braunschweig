@@ -39,7 +39,18 @@ const SignupForm = () => {
     }
 
     return (
+
+        <div className="Page" style={{ alignItems:'center' }}>
+            <h2 style={{textAlign:'center'}} >Vul hier je accountdetails in</h2>
+            <form onSubmit={onSubmit}>
+                <label htmlFor="firstName">Voornaam</label>
+                <br></br>
+                <input type="text" id="firstName" name="firstName" onChange={(e) => setFirstName(e.target.value)}></input>
+                <br></br>
+                <br></br>
+
         <div className="Page" style={{ alignItems: 'center' }}>
+
 
             <div
                 className='floatingPage'
