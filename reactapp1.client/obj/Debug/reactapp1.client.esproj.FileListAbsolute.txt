@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\samue\Source\Repos\Operatie-Braunschweig\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
+=======
+C:\Users\sjoer\source\repos\Operatie-Braunschweig\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
+>>>>>>> 87f2293156b9db792c6efa85c42bbcde5c074f2f

@@ -4,10 +4,14 @@
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
 <<<<<<< HEAD
+<<<<<<< HEAD
 "WorkingDirectory": "C:\\Users\\samue\\Source\\Repos\\Operatie-Braunschweig\\ReactApp1.Server\\..\\reactapp1.client",
 =======
 "WorkingDirectory": "C:\\Users\\Faris\\Desktop\\Operatie-Braunschweig\\ReactApp1.Server\\..\\reactapp1.client",
 >>>>>>> 6a8801b4bb1298ae26547f89c58f3148278d4a90
+=======
+"WorkingDirectory": "C:\\Users\\sjoer\\source\\repos\\Operatie-Braunschweig\\ReactApp1.Server\\..\\reactapp1.client",
+>>>>>>> 87f2293156b9db792c6efa85c42bbcde5c074f2f
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
